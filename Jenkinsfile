@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-                git ''
+                git 'https://github.com/nandakishore1991/miniwork.git'
             }
         }
     }
